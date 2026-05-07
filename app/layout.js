@@ -1,6 +1,8 @@
 import { Montserrat, Prata } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "./components/layout/header/Navbar";
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   variable: "--font-montserrat-google",
@@ -25,7 +27,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${montserrat.variable} ${prata.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
