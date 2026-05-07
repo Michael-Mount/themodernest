@@ -1,15 +1,30 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat, Prata } from "next/font/google";
 import "./globals.css";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat-google",
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const prata = Prata({
+  subsets: ["latin"],
+  variable: "--font-prata-google",
+  weight: "400",
+});
 
 export const metadata = {
   title: "The Modernest Collection",
   description:
-    "The Modernest Collections landing page for their two aparments in Nashville, Tennessee.",
+    "The Modernest Collection landing page for its two apartments in Nashville, Tennessee.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`h-full antialiased`}>
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${prata.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

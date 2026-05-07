@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-montserrat: var(--font-montserrat-google);
+  --font-prata: var(--font-prata-google);
+}
+
 :root {
   --refresh: #ffffff;
   --awaken: #f4f1e9;

@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <secton>
-      <div>Home</div>
+      <div className="font-montserrat">Home</div>
     </secton>
   );
 }
