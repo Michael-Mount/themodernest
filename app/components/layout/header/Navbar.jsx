@@ -8,8 +8,8 @@ import Image from "next/image";
 import whiteLogo from "../../../../public/white-logo.png";
 
 const utilityLinks = [
-  { label: "Contact Us", href: "/" },
-  { label: "Gallery", href: "/" },
+  { label: "Contact Us", href: "/contact-us" },
+  { label: "Gallery", href: "/gallery" },
 ];
 
 const mainLinks = [
