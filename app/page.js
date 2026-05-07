@@ -2,6 +2,7 @@ import Herovideo from "./components/layout/hero/Herovideo";
 import IntroSection from "./components/layout/header/IntroSection";
 import TextTwoImageSection from "./components/layout/text/TextTwoImageSection";
 import AmenitiesCarousel from "./components/carousel/AmenitiesCarousel";
+import SimpleGallery from "./components/galleries/SimpleGallery";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         imageTwoAlt="Elegant bedroom in a luxury Nashville apartment"
       />
       <AmenitiesCarousel />
+      <SimpleGallery />
     </>
   );
 }
