@@ -18,8 +18,7 @@ const prata = Prata({
 
 export const metadata = {
   title: "The Modernest Collection",
-  description:
-    "The Modernest Collection landing page for its two apartments in Nashville, Tennessee.",
+  description: "The Modernest Gulch View landing page in Nashville, Tennessee.",
 };
 
 export default function RootLayout({ children }) {

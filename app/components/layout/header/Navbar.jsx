@@ -17,32 +17,19 @@ const mainLinks = [
     label: "Stay",
     href: "/rooms",
     dropdown: [
-      { label: "Rooms & Suites", href: "/" },
-      { label: "Packages & Offers", href: "/" },
-      { label: "Corporate Travel", href: "/" },
+      { label: "Rooms & Suites", href: "/rooms" },
+      { label: "Corporate Travel", href: "/corporate-travel" },
     ],
   },
   {
-    label: "Dine",
-    href: "/dine",
-    dropdown: [
-      { label: "Oak Steak House", href: "/" },
-      { label: "The Bar", href: "/" },
-    ],
+    label: "Amenities",
+    href: "/amenities",
   },
-  {
-    label: "Wedding & Events",
-    href: "/events",
-    dropdown: [
-      { label: "Weddings", href: "/" },
-      { label: "Corporate Events", href: "/" },
-      { label: "Social Events", href: "/" },
-    ],
-  },
+
   {
     label: "Explore",
-    href: "/local-events",
-    dropdown: [{ label: "Local Events", href: "/" }],
+    href: "/local-scene",
+    dropdown: [{ label: "Local Scene", href: "/local-scene" }],
   },
 ];
 

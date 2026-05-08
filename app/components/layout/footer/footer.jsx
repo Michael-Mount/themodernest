@@ -20,11 +20,11 @@ const defaultLogos = [
 ];
 
 const defaultLinks = [
-  { label: "Residences", href: "/rooms" },
+  { label: "Stay", href: "/rooms" },
 
   { label: "Gallery", href: "/gallery" },
 
-  { label: "Contact", href: "/contact" },
+  { label: "Contact", href: "/contact-us" },
 ];
 
 export default function Footer({
