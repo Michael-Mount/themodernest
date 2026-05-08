@@ -29,7 +29,6 @@ const mainLinks = [
   {
     label: "Explore",
     href: "/local-scene",
-    dropdown: [{ label: "Local Scene", href: "/local-scene" }],
   },
 ];
 
