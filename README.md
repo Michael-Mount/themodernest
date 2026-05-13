@@ -67,11 +67,11 @@ The site was designed with a focus on:
 
 ### Homepage
 
-![Homepage Screenshot](./screenshots/homepage.png)
+![Homepage Screenshot](./public//Homepage-Screenshot.png)
 
 ### Gallery Section
 
-![Gallery Screenshot](./screenshots/gallery.png)
+![Gallery Screenshot](./public/Gallery-Screenshot.png)
 
 ## What I Learned
 
