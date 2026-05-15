@@ -3,6 +3,7 @@ import IntroSection from "./components/layout/header/IntroSection";
 import TextTwoImageSection from "./components/layout/text/TextTwoImageSection";
 import AmenitiesCarousel from "./components/carousel/AmenitiesCarousel";
 import SimpleGallery from "./components/galleries/SimpleGallery";
+import ManagementCompanyCard from "./components/layout/cards/managementCompanyCard";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       />
       <AmenitiesCarousel />
       <SimpleGallery />
+      <ManagementCompanyCard />
     </>
   );
 }
