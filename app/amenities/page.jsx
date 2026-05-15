@@ -4,7 +4,7 @@ import AmenitiesPage from "../components/amenities/AmenitiesPage";
 export const metadata = {
   title: "Amenities | The Modernest Glutch View",
   description:
-    "All the high end and luxury amenities offered at The Modernest Gultch View",
+    "All the high end and luxury amenities offered at The Modernest gulch View",
 };
 
 export default function Amenities() {

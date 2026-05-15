@@ -40,7 +40,7 @@ export default function Footer({
       <div className="mx-auto max-w-7xl">
         <div className="border-b border-white/15 pb-12">
           <p className="mb-8 text-center font-montserrat text-xs uppercase tracking-[0.35em] text-white/60">
-            The Modernest Gultch View
+            The Modernest gulch View
           </p>
 
           <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-14">
